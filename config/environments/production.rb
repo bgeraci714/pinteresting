@@ -86,5 +86,5 @@ Rails.application.configure do
 
   #Required for heroku
   #note that this needs to be set to your specific/actual host
-  config.action_mailer.default_url_options = { host: => 'https://bmg-pinteresting.herokuapp.com/'}
+  config.action_mailer.default_url_options = { :host: => 'https://bmg-pinteresting.herokuapp.com/'}
 end
