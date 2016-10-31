@@ -1,4 +1,4 @@
-<%= form_for(pin) do |f| %>
+<%= form_for @pin, html: {multipart: true} do |f| %>
   <!-- shows error messages -->
   <% if pin.errors.any? %>
     <div id="error_explanation">
@@ -12,10 +12,15 @@
     </div>
   <% end %>
 
-  <!-- form inputs -->
+  <!-- form inputs https://github.com/thoughtbot/paperclip -->
+  <div class="form-group">
+    <%= f.label :image %>
+    <%= f.file_field :image, class: "form-control"%>
+  </div>
+
   <div class="form-group">
     <%= f.label :description %>
-    <%= f.text_field :description, class: "form-control"%>
+    <%= f.text_field :description, class: "form-control" %>
   </div>
 
   <div class="form-group">
