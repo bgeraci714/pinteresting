@@ -38,6 +38,9 @@ gem 'aws-sdk', '< 2.0'
 # jquery masonry rails
 gem 'masonry-rails', '~> 0.2.0'
 
+# pagination gems
+gem 'will_paginate', '~> 3.0.5'
+gem 'will_paginate-bootstrap'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
