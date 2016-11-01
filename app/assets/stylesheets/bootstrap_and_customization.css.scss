@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import "bootstrap-sprockets";
+@import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 $body-bg:                           #ecf0f1;
 $font-family-sans-serif:            "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -12,7 +15,12 @@ $navbar-inverse-link-hover-color:   #c0392b;
 $jumbotron-bg:                      white;
 
 
+
 @import 'bootstrap';
+
+a {
+  color:#e74c3c;
+}
 
 .center  {
   text-align: center;
