@@ -16,16 +16,27 @@ gem 'coffee-rails', '~> 4.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+
+###############################
+###### Added in Tutorial ######
+###############################
+
+# Styling using sass and bootstrap (allows for easy bootstrap use and sass variables)
 gem 'bootstrap-sass'
+
+# User/Login Validation
 gem 'devise', '~> 4.0.0.rc2'
+
+# Image Processing Gem
 gem 'paperclip', '~> 4.2'
+
+# Amazon Web Services
 gem 'aws-sdk', '< 2.0'
 
-
+# jquery masonry rails
+gem 'masonry-rails', '~> 0.2.0'
 
 
 # Use Capistrano for deployment
