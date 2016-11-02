@@ -1,7 +1,7 @@
 
 # One Month Rails - Pinteresting Project
 
-This is a pinterest clone called [*Pinteresting*](https://bmg-pinteresting.herokuapp.com/) made using One Month Rails. The site is styled after the original pinterest but was implemented over the course of a couple days using a handful of different technologies and Ruby gems. The most noteworthy being:
+This is a pinterest clone called [*Pinteresting*](https://bmg-pinteresting.herokuapp.com/) made following the One Month Rails tutorial. The site is styled after the original Pinterest but was implemented over the course of a few days using a handful of different technologies and Ruby gems. The most noteworthy being:
 
   -  Ruby on Rails
   -  Heroku
